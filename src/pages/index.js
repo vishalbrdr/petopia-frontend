@@ -6,10 +6,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 export default function Home({ pets }) {
-  const [user, setUser] = useState({ name: "", email: "", password: "" });
-  const { name, email, password } = user;
-  const { signUp } = useAuth();
-
   return (
     <>
       <Head>

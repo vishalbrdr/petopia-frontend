@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import Modal from "./hoc/Modal";
-import SignUp from "./SignUp";
+import SignUp from "./auth/SignUp";
 import { useRouter } from "next/router";
-import SignIn from "./SignIn";
+import SignIn from "./auth/SignIn";
 
 export default function Navbar() {
   const router = useRouter();
